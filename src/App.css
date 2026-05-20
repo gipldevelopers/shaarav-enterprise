@@ -32,6 +32,7 @@
 .page-shell {
   width: min(1400px, calc(100% - 2.25rem));
   margin: 0 auto;
+  margin-top: 124px;
 }
 
 .topbar {
@@ -231,7 +232,7 @@
 }
 
 .hero__copy h1 {
-  max-width: 9ch;
+  max-width: 30ch;
   margin-top: 1rem;
   color: #f8f3eb;
   font-size: clamp(2.9rem, 5vw, 4.7rem);
@@ -981,7 +982,7 @@
   }
 
   .hero__copy h1 {
-    max-width: 10ch;
+    max-width: 30ch;
   }
 
   .hero__copy {
