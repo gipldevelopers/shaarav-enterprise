@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
 @import 'tailwindcss';
 
+@theme {
+  --color-text: #152b23;
+  --color-muted: #5f6f68;
+  --color-surface: #fffaf4;
+  --color-accent: #d7a96b;
+  --color-accent-strong: #8f6330;
+  --shadow-soft: 0 30px 60px rgba(48, 43, 24, 0.08);
+  --font-display: 'Instrument Serif', serif;
+}
+
 :root {
   font-family: 'Manrope', sans-serif;
   line-height: 1.6;
   font-weight: 400;
-  color: #152b23;
+  color: var(--color-text);
   background:
     radial-gradient(circle at top, rgba(215, 182, 132, 0.18), transparent 28%),
     linear-gradient(180deg, #f6f1e9 0%, #f4eee5 45%, #efe8dc 100%);
@@ -14,13 +24,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --font-display: 'Instrument Serif', serif;
-  --color-text: #152b23;
-  --color-muted: #5f6f68;
-  --color-surface: #fffaf4;
-  --color-accent: #d7a96b;
-  --color-accent-strong: #8f6330;
-  --shadow-soft: 0 30px 60px rgba(48, 43, 24, 0.08);
 }
 
 html {
