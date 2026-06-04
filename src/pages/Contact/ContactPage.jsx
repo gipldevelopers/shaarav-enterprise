@@ -36,12 +36,7 @@ export function ContactPage() {
           {/* Subtle top accent line */}
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#d7a96b] to-transparent opacity-60"></div>
 
-          <a
-            href="https://maps.google.com/?q=Shaarav+Enterprise,+B7-1601,+Waterlily,+Adani+Shantigram,+Nr+Vaishnodevi+Circle,+Ahmedabad+-+382421"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 p-8 md:p-10 border-b md:border-b-0 md:border-r border-black/5 hover:bg-black/[0.02] transition-colors duration-300 flex flex-col items-start group !text-[#152b23]"
-          >
+          <div className="flex-1 p-8 md:p-10 border-b md:border-b-0 md:border-r border-black/5 hover:bg-black/[0.02] transition-colors duration-300 flex flex-col items-start group !text-[#152b23]">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 rounded-full bg-[#d7a96b]/10 text-[#8f6330] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -51,14 +46,18 @@ export function ContactPage() {
               </div>
               <h3 className="text-2xl mb-0 !text-[#152b23]">Visit Us</h3>
             </div>
-            <p className="font-bold text-sm tracking-wide mb-1 uppercase !text-[#152b23] group-hover:!text-[#8f6330] transition-colors">Shaarav Enterprise</p>
-            <p className="text-sm !text-[#152b23]/70 leading-relaxed max-w-[280px]">B7-1601, Waterlily, Adani Shantigram, Nr Vaishnodevi Circle, Ahmedabad - 382421</p>
-          </a>
+            <p className="font-bold text-sm tracking-wide mb-1 uppercase !text-[#152b23] transition-colors">Shaarav Enterprise</p>
+            <a 
+              href="https://maps.google.com/?q=Shaarav+Enterprise,+B7-1601,+Waterlily,+Adani+Shantigram,+Nr+Vaishnodevi+Circle,+Ahmedabad+-+382421"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm !text-[#152b23]/70 hover:!text-[#8f6330] transition-colors leading-relaxed max-w-[280px]"
+            >
+              B7-1601, Waterlily, Adani Shantigram, Nr Vaishnodevi Circle, Ahmedabad - 382421
+            </a>
+          </div>
 
-          <a
-            href="tel:+919925528021"
-            className="flex-1 p-8 md:p-10 border-b md:border-b-0 md:border-r border-black/5 hover:bg-black/[0.02] transition-colors duration-300 flex flex-col items-start group !text-[#152b23]"
-          >
+          <div className="flex-1 p-8 md:p-10 border-b md:border-b-0 md:border-r border-black/5 hover:bg-black/[0.02] transition-colors duration-300 flex flex-col items-start group !text-[#152b23]">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 rounded-full bg-[#d7a96b]/10 text-[#8f6330] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -67,14 +66,14 @@ export function ContactPage() {
               </div>
               <h3 className="text-2xl mb-0 !text-[#152b23]">Call Us</h3>
             </div>
-            <p className="text-sm !text-[#152b23]/70 mb-2">Direct line for immediate assistance</p>
-            <span className="text-lg font-medium !text-[#152b23] group-hover:!text-[#8f6330] transition-colors inline-block tracking-wide">+91 9925528021</span>
-          </a>
+            <p className="text-sm !text-[#152b23]/70 mb-2">Direct lines for immediate assistance</p>
+            <div className="flex flex-col gap-1">
+              <a href="tel:+919925528021" className="text-lg font-medium !text-[#152b23] hover:!text-[#8f6330] transition-colors inline-block tracking-wide">+91 99255 28021</a>
+              <a href="tel:+919023671539" className="text-lg font-medium !text-[#152b23] hover:!text-[#8f6330] transition-colors inline-block tracking-wide">+91 90236 71539</a>
+            </div>
+          </div>
 
-          <a
-            href="mailto:info@shaaraventerprise.com"
-            className="flex-1 p-8 md:p-10 hover:bg-black/[0.02] transition-colors duration-300 flex flex-col items-start group !text-[#152b23]"
-          >
+          <div className="flex-1 p-8 md:p-10 hover:bg-black/[0.02] transition-colors duration-300 flex flex-col items-start group !text-[#152b23]">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 rounded-full bg-[#d7a96b]/10 text-[#8f6330] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -84,8 +83,8 @@ export function ContactPage() {
               <h3 className="text-2xl mb-0 !text-[#152b23]">Email Us</h3>
             </div>
             <p className="text-sm !text-[#152b23]/70 mb-2">For detailed inquiries and support</p>
-            <span className="text-lg font-medium !text-[#152b23] group-hover:!text-[#8f6330] transition-colors inline-block break-all">info@shaaraventerprise.com</span>
-          </a>
+            <a href="mailto:hello@shaaravglobalventures.com" className="text-lg font-medium !text-[#152b23] hover:!text-[#8f6330] transition-colors inline-block break-all">hello@shaaravglobalventures.com</a>
+          </div>
         </div>
       </section>
 
