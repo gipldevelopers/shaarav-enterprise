@@ -9,8 +9,8 @@ export function SectorMosaic() {
       </div>
       <div className="mosaic-grid">
         <article className="mosaic-card">
-          <h3>Business Owners</h3>
-          <p>Owners who need structure, growth planning, and calmer decision-making.</p>
+          <h3>Business Owners, HNIs & Ultra HNIs</h3>
+          <p>Entrepreneurs, high-net-worth individuals, and families seeking structure, growth planning, and calmer decision-making.</p>
         </article>
         <article className="mosaic-card mosaic-card--image" style={{ backgroundImage: `url(${media.workspace})` }} />
         <article className="mosaic-card mosaic-card--accent">

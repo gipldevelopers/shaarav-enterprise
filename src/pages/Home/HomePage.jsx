@@ -11,6 +11,7 @@ import { CredentialsSection } from './CredentialsSection'
 import { FinalCTA } from './FinalCTA'
 import { WhyChooseUs } from './WhyChooseUs'
 import { StrategicAdvantage } from './StrategicAdvantage'
+import { Testimonials } from './Testimonials'
 
 export function HomePage({ onNavigate }) {
   return (
@@ -40,12 +41,13 @@ export function HomePage({ onNavigate }) {
         eyebrow="Strategic Advantage"
         title="Structure creates value in more ways than one."
         items={[
-          { title: 'Better Alignment', text: 'Business, family, and financial decisions can move together.' },
+          { title: 'Better Alignment', text: 'Financial Services, family, and financial decisions can move together.' },
           { title: 'Faster Action', text: 'A clear framework reduces hesitation and improves momentum.' },
           { title: 'Reduced Friction', text: 'Less confusion means more energy for real progress.' },
         ]}
       />
       
+      <Testimonials />
       <FinalCTA onNavigate={onNavigate} />
     </>
   )

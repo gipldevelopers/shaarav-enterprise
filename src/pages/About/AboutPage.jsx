@@ -2,6 +2,7 @@ import { PageHero } from '../../components/common/PageHero'
 import { InfoTiles } from '../Home/InfoTiles'
 import { media } from '../../constants/data'
 import { AboutPhilosophy } from './AboutPhilosophy'
+import { Testimonials } from '../Home/Testimonials'
 
 export function AboutPage() {
   return (
@@ -19,15 +20,29 @@ export function AboutPage() {
         <div className="story-layout__copy">
           <span className="eyebrow">The Shaarav Standard</span>
           <h2>We help businesses grow and sustain.</h2>
-          <p>
-            Greetings from Shaarav Enterprise. We cater to single or micro enterprise
-            owners with the best of simplified and structured solutions using
-            technology and human effort together.
-          </p>
-          <p>
-            We not only bring together demand and supply but also open the route to
-            meaningful connections between buyers, sellers, and investors.
-          </p>
+          <div className="flex flex-col gap-6 mt-6">
+            <div className="flex gap-4 items-start">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#d7a96b]/20 text-[#8f6330] font-bold text-sm shrink-0">1</span>
+              <div>
+                <h4 className="text-[1.15rem] font-bold text-[#152b23] mb-1">Simplified Solutions</h4>
+                <p className="!mt-0 text-muted">We cater to single or micro enterprise owners with the best of simplified and structured solutions using technology and human effort together.</p>
+              </div>
+            </div>
+            <div className="flex gap-4 items-start">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#d7a96b]/20 text-[#8f6330] font-bold text-sm shrink-0">2</span>
+              <div>
+                <h4 className="text-[1.15rem] font-bold text-[#152b23] mb-1">Connected Network</h4>
+                <p className="!mt-0 text-muted">We not only bring together demand and supply but also open the route to meaningful connections between buyers, sellers, and investors.</p>
+              </div>
+            </div>
+            <div className="flex gap-4 items-start">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#d7a96b]/20 text-[#8f6330] font-bold text-sm shrink-0">3</span>
+              <div>
+                <h4 className="text-[1.15rem] font-bold text-[#152b23] mb-1">Grounded Decisions</h4>
+                <p className="!mt-0 text-muted">Let us help you reach out to the right path for your needs and support you in making confident decisions.</p>
+              </div>
+            </div>
+          </div>
         </div>
         <article
           className="image-panel image-panel--portrait !min-h-[20rem]"
@@ -71,6 +86,8 @@ export function AboutPage() {
       <section className="page-shell quote-block !my-12">
         <blockquote>"Let us help you reach out to the right path for you and help you decide."</blockquote>
       </section>
+
+      <Testimonials />
 
       <InfoTiles
         eyebrow="About Highlights"

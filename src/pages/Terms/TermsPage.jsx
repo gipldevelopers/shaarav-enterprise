@@ -38,7 +38,7 @@ export function TermsPage() {
           <div>
             <h3 style={{ marginBottom: '1rem', color: 'var(--color-accent-strong)' }}>3. Limitation of Liability</h3>
             <p>
-              While we strive to provide accurate and actionable advice, Shaarav Enterprise shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use or inability to use our services or website. Business decisions remain the sole responsibility of the client.
+              While we strive to provide accurate and actionable advice, Shaarav Enterprise shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use or inability to use our services or website. Financial Services decisions remain the sole responsibility of the client.
             </p>
           </div>
           

@@ -1,16 +1,17 @@
 import { serviceCards } from '../../constants/data'
 
 export function ServicesPreview({ onNavigate }) {
+  const displayedServices = serviceCards.slice(0, 2)
+
   return (
     <section className="section page-shell services-preview">
       <div className="section-heading section-heading--wide">
         <span className="eyebrow">Our Services</span>
         <h2>Designed to feel credible in the room and useful in the real world.</h2>
-        
       </div>
 
       <div className="services-grid">
-        {serviceCards.map((service) => (
+        {displayedServices.map((service) => (
           <article
             key={service.title}
             className="service-card !min-h-[20rem]"
@@ -28,6 +29,16 @@ export function ServicesPreview({ onNavigate }) {
             </div>
           </article>
         ))}
+      </div>
+
+      <div className="flex justify-center mt-12">
+        <button 
+          onClick={() => onNavigate('services')} 
+          className="button button--primary"
+          type="button"
+        >
+          View All Services
+        </button>
       </div>
     </section>
   )
