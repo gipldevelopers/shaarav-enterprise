@@ -8,6 +8,8 @@ export const media = {
   founder: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1600&q=80',
   workspace: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80',
   contact: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1600&q=80',
+  courses: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80',
+  taxPlanning: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1600&q=80',
 }
 
 export const navItems = [
@@ -43,6 +45,18 @@ export const serviceCards = [
     title: 'Small Enterprise Solutions',
     description: 'Structured help for growing businesses through operational clarity, financial discipline, and practical strategic support.',
     image: media.workspace,
+  },
+  {
+    id: 'courses',
+    title: 'Courses',
+    description: 'Structured learning programs covering financial planning, investment basics, and wealth management strategies.',
+    image: media.courses,
+  },
+  {
+    id: 'tax-planning',
+    title: 'Tax Planning',
+    description: 'Strategic tax planning and structuring services to optimize your personal and enterprise tax efficiency.',
+    image: media.taxPlanning,
   },
 ]
 
@@ -89,4 +103,25 @@ export const contactCards = [
     icon: 'facebook',
     colorClass: 'social-card--facebook',
   },
+]
+
+export const testimonials = [
+  {
+    quote: "Shaarav Enterprise transformed our family office governance. They brought incredible structure and clarity to our legacy planning, ensuring a smooth path for the next generation.",
+    author: "Rajesh Mehta",
+    role: "Managing Director, Mehta Group (HNI Family)",
+    location: "Ahmedabad"
+  },
+  {
+    quote: "As a micro-enterprise owner, I struggled with daily financial clarity. Shaarav provided simplified, technology-driven solutions that brought discipline to our cash flow and decision-making.",
+    author: "Ananya Sharma",
+    role: "Founder, Sharma Tech & Crafts",
+    location: "Pune"
+  },
+  {
+    quote: "Their real estate investment advisory is grounded and opportunity-led. They helped us cut through the noise and purchase commercial properties with confidence.",
+    author: "Vikram Malhotra",
+    role: "Private Investor",
+    location: "Mumbai"
+  }
 ]

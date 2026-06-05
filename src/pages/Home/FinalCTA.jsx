@@ -4,7 +4,7 @@ export function FinalCTA({ onNavigate }) {
       <div className="final-cta__panel">
         <div>
           <span className="eyebrow eyebrow--light">Connect With Us</span>
-          <h2>Business anxiety? Drop us a line and let&apos;s find the right cure.</h2>
+          <h2>Financial Services anxiety? Drop us a line and let&apos;s find the right cure.</h2>
           <p>
             Whether you need investment clarity, family office guidance, property
             direction, or small-enterprise consulting, we are here to help you move

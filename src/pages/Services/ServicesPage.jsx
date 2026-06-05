@@ -1,6 +1,7 @@
 import { PageHero } from '../../components/common/PageHero'
 import { InfoTiles } from '../Home/InfoTiles'
-import { media, serviceCards } from '../../constants/data'
+import { media } from '../../constants/data'
+import { ServicesTree } from './ServicesTree'
 
 export function ServicesPage({ onNavigate }) {
   return (
@@ -12,24 +13,7 @@ export function ServicesPage({ onNavigate }) {
         image={media.financial}
       />
 
-      <section className="section page-shell services-grid services-grid--full !my-12 gap-0">
-        {serviceCards.map((service) => (
-          <article
-            key={service.title}
-            className="service-card !min-h-[20rem]"
-            style={{
-              backgroundImage: `linear-gradient(180deg, rgba(9, 18, 16, 0.08), rgba(9, 18, 16, 0.86)), url(${service.image})`,
-            }}
-          >
-            <div className="service-card__content !p-6">
-              <span className="service-card__kicker">Service Vertical</span>
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
-              <button type="button" onClick={() => onNavigate(`service/${service.id}`)}>Learn More</button>
-            </div>
-          </article>
-        ))}
-      </section>
+      <ServicesTree onNavigate={onNavigate} />
 
       <section className="section page-shell comparison-grid gap-0">
         <article className="glass-card">
@@ -86,7 +70,7 @@ export function ServicesPage({ onNavigate }) {
         items={[
           { title: 'Financial Depth', text: 'Useful direction for planning, investment, and decision clarity.' },
           { title: 'Family Continuity', text: 'Sensitive structuring for wealth, legacy, and protection.' },
-          { title: 'Business Practicality', text: 'Advice that respects the day-to-day reality of smaller enterprises.' },
+          { title: 'Financial Services Practicality', text: 'Advice that respects the day-to-day reality of smaller enterprises.' },
         ]}
       />
     </>

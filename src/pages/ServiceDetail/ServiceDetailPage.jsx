@@ -94,7 +94,7 @@ export function ServiceDetailPage({ service, onNavigate }) {
         items={[
           { title: 'Individuals', text: 'When an important financial or investment decision needs more clarity.' },
           { title: 'Families', text: 'When wealth continuity or long-term planning needs stronger structure.' },
-          { title: 'Owners', text: 'When business pressure requires a calmer and more strategic next step.' },
+          { title: 'Owners & HNIs', text: 'When business or personal wealth pressure requires a calmer and more strategic next step.' },
         ]}
       />
 

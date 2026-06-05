@@ -49,7 +49,7 @@ export function BlogPage({ onNavigate }) {
           <p>Decision frameworks, mindset, and clarity over noise.</p>
         </article>
         <article className="glass-card">
-          <h3>Business Thought</h3>
+          <h3>Financial Services Thought</h3>
           <p>Practical improvement ideas for owners and operators.</p>
         </article>
         <article className="glass-card">

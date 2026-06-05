@@ -168,7 +168,7 @@ export function ContactPage() {
                       className="p-2.5 text-sm rounded-lg bg-white/50 border border-black/5 focus:border-black/20 focus:bg-white focus:outline-none transition-all shadow-sm cursor-pointer"
                       disabled={isSubmitting}
                     >
-                      <option value="business">Business Growth</option>
+                      <option value="financial_services">Financial Services Growth</option>
                       <option value="realestate">Real Estate</option>
                       <option value="familyoffice">Family Office</option>
                       <option value="other">Other Inquiry</option>

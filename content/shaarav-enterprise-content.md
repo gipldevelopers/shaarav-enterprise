@@ -14,7 +14,7 @@
 
 We are a business consulting agency located in Ahmedabad, India.
 
-Business owner behind the agency has experience of over 20 years in this sphere.
+Financial Services owner behind the agency has experience of over 20 years in this sphere.
 
 Greetings from Shaarav Enterprise. We here at Shaarav cater to single or micro enterprise or industry owners with the best of simplified and structured solutions with the help of technology and human efforts.
 
