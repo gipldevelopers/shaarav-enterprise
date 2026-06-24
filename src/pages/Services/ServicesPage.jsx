@@ -8,7 +8,7 @@ export function ServicesPage({ onNavigate }) {
     <>
       <PageHero
         eyebrow="Our Services"
-        title="Advisory built for business, family, property, and growth."
+        title="Advisory built for financial services, family, property, and growth."
         text="Each service is designed to feel premium, understandable, and directly useful in the real world."
         image={media.financial}
       />
@@ -26,7 +26,7 @@ export function ServicesPage({ onNavigate }) {
         </article>
         <article className="glass-card">
           <h3>For MSMEs</h3>
-          <p>Operational clarity, cash-flow awareness, and strategy grounded in business reality.</p>
+          <p>Operational clarity, cash-flow awareness, and strategy grounded in financial services reality.</p>
         </article>
       </section>
 

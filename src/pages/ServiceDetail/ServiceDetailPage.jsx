@@ -72,7 +72,7 @@ export function ServiceDetailPage({ service, onNavigate }) {
         title="A premium advisory service with practical depth."
         items={[
           { title: 'Strategy', text: 'Clear direction shaped around your current position and future goals.' },
-          { title: 'Clarity', text: 'A simpler decision-making framework for complex business or financial choices.' },
+          { title: 'Clarity', text: 'A simpler decision-making framework for complex financial services or financial choices.' },
           { title: 'Support', text: 'Thoughtful guidance that stays grounded in real-world practicality.' },
         ]}
       />
@@ -94,7 +94,7 @@ export function ServiceDetailPage({ service, onNavigate }) {
         items={[
           { title: 'Individuals', text: 'When an important financial or investment decision needs more clarity.' },
           { title: 'Families', text: 'When wealth continuity or long-term planning needs stronger structure.' },
-          { title: 'Owners & HNIs', text: 'When business or personal wealth pressure requires a calmer and more strategic next step.' },
+          { title: 'Business Owners, HNIs & Ultra HNIs', text: 'When financial services or personal wealth pressure requires a calmer and more strategic next step.' },
         ]}
       />
 

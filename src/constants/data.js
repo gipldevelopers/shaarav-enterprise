@@ -43,7 +43,7 @@ export const serviceCards = [
   {
     id: 'small-enterprise-solutions',
     title: 'Small Enterprise Solutions',
-    description: 'Structured help for growing businesses through operational clarity, financial discipline, and practical strategic support.',
+    description: 'Structured help for growing financial services through operational clarity, financial discipline, and practical strategic support.',
     image: media.workspace,
   },
   {

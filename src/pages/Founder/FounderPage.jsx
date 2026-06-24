@@ -4,8 +4,8 @@ import { media } from '../../constants/data'
 
 export function FounderPage() {
   const journeyPoints = [
-    'A foundation in commerce, marketing, business law, and taxation, shaped by early hands-on business involvement.',
-    'Operational experience in travel, aviation, procurement, and banking before joining the family business in Ahmedabad.',
+    'A foundation in commerce, marketing, financial services law, and taxation, shaped by early hands-on financial services involvement.',
+    'Operational experience in travel, aviation, procurement, and banking before joining the family financial services in Ahmedabad.',
     'Leadership across clearing, forwarding, warehousing, administration, equity markets, and entrepreneurial consulting.',
   ];
 
@@ -13,7 +13,7 @@ export function FounderPage() {
     {
       title: 'PGDBA (HR & Finance)',
       subtitle: 'Symbiosis, Pune',
-      text: 'Deep academic foundation in human resources, financial management, and business administration.',
+      text: 'Deep academic foundation in human resources, financial management, and financial services administration.',
       icon: (
         <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -58,7 +58,7 @@ export function FounderPage() {
       <PageHero
         eyebrow="Founder"
         title="A journey built from curiosity, hands-on work, and steady professional growth."
-        text="From early business exposure to structured financial consulting, the founder story behind Shaarav Enterprise is practical, layered, and deeply experienced."
+        text="From early financial services exposure to structured financial consulting, the founder story behind Shaarav Enterprise is practical, layered, and deeply experienced."
         image={media.founder}
       />
       
@@ -96,7 +96,7 @@ export function FounderPage() {
                 "We cater to single and micro enterprise owners with the best of simplified and structured solutions, combining technology and human effort."
               </blockquote>
               <p>
-                Having navigated the complex realities of family business, administrative hurdles, and market dynamics firsthand, the advisory approach is kept simple, tangible, and actionable.
+                Having navigated the complex realities of family financial services, administrative hurdles, and market dynamics firsthand, the advisory approach is kept simple, tangible, and actionable.
               </p>
             </div>
           </div>
@@ -191,7 +191,7 @@ export function FounderPage() {
         eyebrow="Founder Lens"
         title="The founder journey shapes the consulting mindset."
         items={[
-          { title: 'Commercial Instinct', text: 'A practical understanding of how businesses actually operate.' },
+          { title: 'Commercial Instinct', text: 'A practical understanding of how financial services actually operate.' },
           { title: 'Cross-Functional View', text: 'Exposure across administration, finance, operations, and planning.' },
           { title: 'Creative Judgment', text: 'The ability to think beyond rigid templates while staying structured.' },
         ]}

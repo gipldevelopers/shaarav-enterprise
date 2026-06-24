@@ -9,8 +9,8 @@ export function AboutPage() {
     <>
       <PageHero
         eyebrow="About Us"
-        title="A consulting practice built on lived business experience."
-        text="Shaarav Enterprise brings together commerce, family business exposure, administration, finance, and entrepreneurial thinking into a premium advisory experience."
+        title="A consulting practice built on lived financial services experience."
+        text="Shaarav Enterprise brings together commerce, family financial services exposure, administration, finance, and entrepreneurial thinking into a premium advisory experience."
         image={media.boardroom}
       />
       
@@ -19,7 +19,7 @@ export function AboutPage() {
       <section className="page-shell story-layout !my-12">
         <div className="story-layout__copy">
           <span className="eyebrow">The Shaarav Standard</span>
-          <h2>We help businesses grow and sustain.</h2>
+          <h2>We help financial services grow and sustain.</h2>
           <div className="flex flex-col gap-6 mt-6">
             <div className="flex gap-4 items-start">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#d7a96b]/20 text-[#8f6330] font-bold text-sm shrink-0">1</span>

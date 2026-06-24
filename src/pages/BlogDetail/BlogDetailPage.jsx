@@ -79,7 +79,7 @@ export function BlogDetailPage({ post, onNavigate }) {
         text="The blog detail experience should feel useful and editorial, not generic. Each article supports a more informed and premium brand impression while still staying practical."
         points={[
           'Focused on actual decision-making rather than vague inspiration',
-          'Written for business owners, HNIs, families, and investors',
+          'Written for financial services owners, HNIs, families, and investors',
           'Structured to support trust and clarity quickly',
         ]}
         image={getImageByCategory(post.category)}

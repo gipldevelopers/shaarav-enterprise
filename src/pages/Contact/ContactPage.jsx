@@ -96,9 +96,9 @@ export function ContactPage() {
             <div className="final-cta__panel" style={{ margin: 0, height: 'auto', padding: '1.5rem' }}>
               <div>
                 <span className="eyebrow eyebrow--light">Why Reach Out</span>
-                <h2 style={{ fontSize: '1.5rem', lineHeight: '1.2' }}>Whether it&apos;s business anxiety or investment confusion, we will find a cure.</h2>
+                <h2 style={{ fontSize: '1.5rem', lineHeight: '1.2' }}>Whether it&apos;s financial services anxiety or investment confusion, we will find a cure.</h2>
                 <p style={{ fontSize: '0.9rem' }}>
-                  Reach out for a first conversation around business growth, real estate,
+                  Reach out for a first conversation around financial services growth, real estate,
                   family office planning, or micro-enterprise support.
                 </p>
               </div>
@@ -203,7 +203,7 @@ export function ContactPage() {
         eyebrow="Before You Reach Out"
         title="A few reasons clients usually contact us."
         items={[
-          { title: 'Need Clarity', text: 'When the next financial or business step feels unclear.' },
+          { title: 'Need Clarity', text: 'When the next financial or financial services step feels unclear.' },
           { title: 'Need Structure', text: 'When ideas exist but need better shape and direction.' },
           { title: 'Need Confidence', text: 'When an important decision requires more grounded judgment.' },
         ]}

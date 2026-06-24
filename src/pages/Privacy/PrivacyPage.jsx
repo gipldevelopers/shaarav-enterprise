@@ -24,7 +24,7 @@ export function PrivacyPage() {
           <div>
             <h3 style={{ marginBottom: '1rem', color: 'var(--color-accent-strong)' }}>1. Information We Collect</h3>
             <p>
-              We may collect personal information such as your name, email address, phone number, and business details when you voluntarily provide it to us through our contact forms, during consultations, or through correspondence. We also collect non-identifiable usage data automatically when you navigate our site.
+              We may collect personal information such as your name, email address, phone number, and financial services details when you voluntarily provide it to us through our contact forms, during consultations, or through correspondence. We also collect non-identifiable usage data automatically when you navigate our site.
             </p>
           </div>
           
