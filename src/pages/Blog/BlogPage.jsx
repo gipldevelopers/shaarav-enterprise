@@ -8,7 +8,7 @@ export function BlogPage({ onNavigate }) {
     <>
       <PageHero
         eyebrow="Blog & Insights"
-        title="Useful thinking for businesses, families, and investors."
+        title="Useful thinking for financial services, families, and investors."
         text="A premium website feels more complete when insight and credibility continue beyond service descriptions."
         image={media.planning}
       />
@@ -76,7 +76,7 @@ export function BlogPage({ onNavigate }) {
         title="The blog should build trust, not just fill space."
         items={[
           { title: 'Short and Strong', text: 'Good content respects the reader\'s time and still adds real value.' },
-          { title: 'Decision-Oriented', text: 'Topics support actual business, property, and family choices.' },
+          { title: 'Decision-Oriented', text: 'Topics support actual financial services, property, and family choices.' },
           { title: 'Credibility Building', text: 'Insights deepen trust before the first conversation even begins.' },
         ]}
       />

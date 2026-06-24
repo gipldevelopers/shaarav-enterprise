@@ -10,7 +10,7 @@ export function ProcessShowcase() {
           <article className="process-step">
             <strong>01</strong>
             <h3>Understand</h3>
-            <p>We listen deeply to your business reality, family priorities, and goals.</p>
+            <p>We listen deeply to your financial services reality, family priorities, and goals.</p>
           </article>
           <article className="process-step">
             <strong>02</strong>

@@ -3,7 +3,7 @@ export function CredentialsSection() {
     'PGDBA from Symbiosis, Pune in HR & Finance',
     'Understanding of Lean Six Sigma Green Belt',
     'Certified Core Strategy Programme in Trading in Markets',
-    '20 years of experience across business, education, finance, and management',
+    '20 years of experience across financial services, education, finance, and management',
   ]
 
   return (

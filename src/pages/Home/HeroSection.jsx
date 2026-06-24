@@ -2,7 +2,7 @@ import { media } from '../../constants/data'
 
 export function HeroSection() {
   const metrics = [
-    { value: '20+', label: 'Years of practical business exposure' },
+    { value: '20+', label: 'Years of practical financial services exposure' },
     { value: '4', label: 'Focused consulting verticals' },
     { value: 'Ahmedabad', label: 'Trusted local roots with strategic reach' },
   ]

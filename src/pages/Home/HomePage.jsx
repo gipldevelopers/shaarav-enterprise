@@ -29,7 +29,7 @@ export function HomePage({ onNavigate }) {
         title="What makes the experience feel more premium."
         items={[
           { title: 'Clarity', text: 'Complex topics are translated into calmer, simpler next steps.' },
-          { title: 'Discretion', text: 'Money, family, and business matters are handled with care.' },
+          { title: 'Discretion', text: 'Money, family, and financial services matters are handled with care.' },
           { title: 'Consistency', text: 'The tone stays polished, thoughtful, and decision-focused.' },
         ]}
       />

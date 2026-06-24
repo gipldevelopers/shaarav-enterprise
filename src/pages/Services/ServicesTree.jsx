@@ -58,7 +58,7 @@ export function ServicesTree({ onNavigate }) {
     {
       id: 'enterprise-learning',
       title: 'Enterprise & Education',
-      description: 'Empowering business growth and financial literacy.',
+      description: 'Empowering financial services growth and financial literacy.',
       color: '#225849',
       icon: (
         <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
@@ -69,7 +69,7 @@ export function ServicesTree({ onNavigate }) {
         {
           id: 'small-enterprise-solutions',
           title: 'Small Enterprise Solutions',
-          description: 'Structured help for growing businesses through operational clarity, financial discipline, and practical strategic support.',
+          description: 'Structured help for growing financial services through operational clarity, financial discipline, and practical strategic support.',
           image: media.workspace,
         },
         {
@@ -117,17 +117,17 @@ export function ServicesTree({ onNavigate }) {
             >
               {/* Branch Node Header */}
               <div 
-                className="p-6 rounded-[2rem] bg-[#fffcf7]/92 border border-[#14231f]/10 shadow-soft text-center mb-8 relative group transition-all duration-300 hover:shadow-[0_20px_40px_rgba(20,35,31,0.06)]"
+                className="p-6 rounded-[2rem] bg-[#fffcf7]/92 border border-[#14231f]/10 shadow-soft text-center mb-8 relative group transition-all duration-300 hover:shadow-[0_20px_40px_rgba(20,35,31,0.06)] flex flex-col items-center justify-start min-h-[240px]"
                 style={{ borderTop: `4px solid ${branch.color}` }}
               >
                 <div 
-                  className="w-12 h-12 rounded-full mx-auto flex items-center justify-center mb-4 transition-colors duration-300"
+                  className="w-12 h-12 rounded-full mx-auto flex items-center justify-center mb-4 transition-colors duration-300 shrink-0"
                   style={{ backgroundColor: `${branch.color}15`, color: branch.color }}
                 >
                   {branch.icon}
                 </div>
-                <h3 className="text-[#152b23] text-xl font-bold m-0">{branch.title}</h3>
-                <p className="text-muted text-sm mt-2 mb-0">{branch.description}</p>
+                <h3 className="text-[#152b23] text-xl font-bold m-0 mb-2">{branch.title}</h3>
+                <p className="text-muted text-sm mt-auto mb-0">{branch.description}</p>
                 
                 {/* Visual Connector Dot at the bottom of the card */}
                 <div 
@@ -142,13 +142,13 @@ export function ServicesTree({ onNavigate }) {
               </div>
 
               {/* Children Nodes Stack */}
-              <div className="space-y-6">
+              <div className="flex-1 flex flex-col gap-6">
                 {branch.children.map((child) => (
                   <article 
                     key={child.title}
-                    className="p-6 rounded-[1.8rem] bg-white border border-[#14231f]/8 shadow-soft flex flex-col justify-between min-h-[260px] group transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_rgba(20,35,31,0.08)]"
+                    className="p-6 rounded-[1.8rem] bg-white border border-[#14231f]/8 shadow-soft flex flex-col justify-between flex-1 min-h-[260px] group transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_rgba(20,35,31,0.08)]"
                   >
-                    <div>
+                    <div className="flex-1 flex flex-col">
                       {/* Miniature thumbnail image */}
                       <div 
                         className="w-full h-32 rounded-[1.2rem] bg-cover bg-center mb-4 border border-[#14231f]/5"

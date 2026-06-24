@@ -12,13 +12,13 @@
 
 ### About Us
 
-We are a business consulting agency located in Ahmedabad, India.
+We are a financial services consulting agency located in Ahmedabad, India.
 
 Financial Services owner behind the agency has experience of over 20 years in this sphere.
 
 Greetings from Shaarav Enterprise. We here at Shaarav cater to single or micro enterprise or industry owners with the best of simplified and structured solutions with the help of technology and human efforts.
 
-We not only bring together the demand side but also the supply side of businesses, while also giving routes to meet these needs. We are a unique platform where you can meet your potential business buyer, seller, or investor for growth and interact with them directly. The rest of the worries you can leave to us.
+We not only bring together the demand side but also the supply side of financial services, while also giving routes to meet these needs. We are a unique platform where you can meet your potential financial services buyer, seller, or investor for growth and interact with them directly. The rest of the worries you can leave to us.
 
 Come and be a part of the most transparent and need-serving community.
 
@@ -40,7 +40,7 @@ At Shaarav Enterprise, we offer clear, reliable, and personalized real estate gu
 
 ### Small Enterprise Solutions
 
-We support small businesses with tailored financial guidance, smart investment planning, and efficient cash-flow strategies.
+We support small financial services with tailored financial guidance, smart investment planning, and efficient cash-flow strategies.
 
 ## Vision
 
@@ -52,13 +52,13 @@ To offer strategic financial consulting, personalised coaching, and comprehensiv
 
 ## From the CEO's Desk
 
-It all began way back in 1994 as a young collegian pursuing graduation in Commerce with majors in Marketing, Advertising and Publication, and minors in Business Law and Taxation from Pune.
+It all began way back in 1994 as a young collegian pursuing graduation in Commerce with majors in Marketing, Advertising and Publication, and minors in Financial Services Law and Taxation from Pune.
 
-There was always an inclination to the business side of every enterprise. From a young age, there was hands-on involvement in purchase, procurement, day-to-day finance, and banking matters in the family-owned supermarket.
+There was always an inclination to the financial services side of every enterprise. From a young age, there was hands-on involvement in purchase, procurement, day-to-day finance, and banking matters in the family-owned supermarket.
 
 This was followed by diplomas in Computers and Tours & Travel in the aviation industry, along with professional experience in a reputed travel agency.
 
-After marriage in 2000, the journey continued in Ahmedabad through the family-owned business of Clearing, Forwarding and Warehousing, first as a manager and today as one of the directors.
+After marriage in 2000, the journey continued in Ahmedabad through the family-owned financial services of Clearing, Forwarding and Warehousing, first as a manager and today as one of the directors.
 
 There was also valuable experience in the academic sector through administration work in a reputed school for nearly 3 to 4 years, providing insight into systems and areas for improvement.
 
@@ -70,7 +70,7 @@ Creativity also remained an important part of the journey, including freelance i
 
 Now, with more than 20 years of experience and new achievements, the goal is to provide tangible, cognizable, and intelligible services to industries and people who seek dependable guidance.
 
-With understanding of Lean Six Sigma Green Belt and a Certified Core Strategy Programme in Trading in Markets, Shaarav Enterprise aims to provide cohesive and proficient solutions to businesses, organizations, and specific projects while offering analysis and investments based on individual client needs.
+With understanding of Lean Six Sigma Green Belt and a Certified Core Strategy Programme in Trading in Markets, Shaarav Enterprise aims to provide cohesive and proficient solutions to financial services, organizations, and specific projects while offering analysis and investments based on individual client needs.
 
 ## Achievements / Credentials
 
